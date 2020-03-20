@@ -12,8 +12,6 @@ import friendsData from './friends/friends-data.json';
 import TransactionHistory from './transactionHistory/transactionHistory';
 import THData from './transactionHistory/transactionHistory-data.json';
 
-//console.log(THData);
-
 const App = () => (
   <>
     <SocialProfile
