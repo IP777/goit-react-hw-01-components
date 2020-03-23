@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import style from '../statistics/statistics.module.css';
 
-const statistics = ({ title = 'Upload stats%', stats = [] }) => {
+const Statistics = ({ title = 'Upload stats%', stats = [] }) => {
   const colorArr = ['#4fc4f6', '#a33cf2', '#e64c65', '#21b8c6', '#21c634'];
   //const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
   return (
@@ -27,9 +27,9 @@ const statistics = ({ title = 'Upload stats%', stats = [] }) => {
   );
 };
 
-statistics.propTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.array.isRequired,
 };
 
-export default statistics;
+export default Statistics;
